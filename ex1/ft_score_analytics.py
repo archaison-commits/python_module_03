@@ -2,7 +2,7 @@
 
 import sys
 
-def send_more_help() -> None:
+def ft_score_analytics() -> None:
     if len(sys.argv) <= 1:
         print("No scores provided. "
               "Usage: python3 ft_score_analytics.py <score1> <score2> ...")
@@ -32,9 +32,9 @@ def send_more_help() -> None:
         print(f"Heigh Score: {high_score}")
         print(f"Low Score: {low_score}")
         print(f"Score range: {score_range}")
-        
+
 
 if __name__ == "__main__":
     print("=== Player Score Analytics ===")
-    send_more_help()
+    ft_score_analytics()
     print()

@@ -2,7 +2,7 @@
 
 import sys
 
-def send_help() -> None:
+def ft_different_error() -> None:
     total_arg = len(sys.argv)
     if total_arg <= 1:
         print("No arguments provided!")
@@ -12,9 +12,9 @@ def send_help() -> None:
     for i in range(1, total_arg):
         print(f"Argument: {sys.argv[i]}")
     print(f"Total arguments: {total_arg}\n")
-    
+
 
 if __name__ == "__main__":
     print("=== Command Quest ===")
     print("Program name: ft_command_quest.py")
-    send_help()
+    ft_different_error()
